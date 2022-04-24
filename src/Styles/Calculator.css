@@ -1,0 +1,31 @@
+.calc
+{
+    height: fit-content;
+    width:35rem;
+    margin: auto;
+    margin-top: 5rem;
+}
+.calc-display
+{
+    height: 5rem;
+    padding-right: .5rem;
+    font-size: 2.2rem;
+    font-weight: 500;
+    border-bottom:1px solid black ;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: flex-end; /* horizontally align */
+    align-items: center; /* vertically align */
+}
+.calc-btns
+{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: .5rem;
+}
+.calc-functions
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: .5rem;
+}
